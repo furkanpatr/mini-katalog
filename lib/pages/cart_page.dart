@@ -103,6 +103,12 @@ class _CartPageState extends State<CartPage> {
                               child: Image.asset(
                                 product.image,
                                 fit: BoxFit.contain,
+                                errorBuilder: (context, error, stackTrace) {
+                                  return const Icon(
+                                    Icons.image_not_supported,
+                                    color: Colors.deepPurple,
+                                  );
+                                },
                               ),
                             ),
                           ),

@@ -69,13 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
     try {
       final loadedProducts = await loadProducts();
 
-      for (final product in loadedProducts) {
-        final jsonMap = product.toJson();
-        final jsonString = jsonEncode(jsonMap);
-
-        debugPrint('JSON Çıktısı: $jsonString');
-      }
-
       if (!mounted) return;
 
       setState(() {

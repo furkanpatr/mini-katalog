@@ -1,17 +1,61 @@
-# mini_katalog
+# Mini Katalog
 
-A new Flutter project.
+Flutter ile geliştirdiğim basit bir ürün katalog uygulaması. Uygulamada ürünleri inceleyebilir, arama yapabilir ve ürünleri sepete ekleyebilirsiniz.
 
-## Getting Started
+Bu projeyi Flutter ve Dart ile mobil uygulama geliştirme eğitimi kapsamında hazırladım.
 
-This project is a starting point for a Flutter application.
+## Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- GridView ile ürün listeleme
+- Ürün arama ve fiyata göre sıralama
+- Ürün detayları ve açıklamaları
+- Adet seçerek sepete ürün ekleme
+- Stok kontrolü
+- Sepette ürün adedini artırma ve azaltma
+- Sepetten ürün silme ve sepeti temizleme
+- Sepet toplam tutarını hesaplama
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Kullanılan Teknolojiler
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter 3.47.8
+- Dart 3.13.7
+- Material Design
+- JSON
+
+Ürün bilgileri yerel JSON dosyasından okunuyor. Sepet işlemleri uygulama içinde tutuluyor ve uygulama yeniden başlatıldığında sıfırlanıyor.
+
+## Kurulum
+
+Projeyi bilgisayarınıza indirdikten sonra klasörde terminal açın.
+
+Bağımlılıkları yükleyin:
+
+```bash
+flutter pub get
+```
+
+Uygulamayı çalıştırın:
+
+```bash
+flutter run
+```
+
+VS Code üzerinden Android emülatörünü seçip `F5` ile de çalıştırabilirsiniz.
+
+## Ekran Görüntüleri
+
+### Ana Sayfa
+
+![Ana Sayfa](screenshots/ana-sayfa.png)
+
+### Ürün Detayı
+
+![Ürün Detayı](screenshots/urun-detay.png)
+
+### Sepet
+
+![Sepet](screenshots/sepet.png)
+
+## Not
+
+Proje eğitim amacıyla geliştirilmiştir. Gerçek ödeme veya sipariş sistemi bulunmamaktadır.

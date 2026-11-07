@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Kablosuz Kulaklık",
+    "price": 799.90,
+    "stock": 15,
+    "image": "assets/images/kulaklik.jpg",
+    "description": "Kablosuz bağlantı özelliğiyle müzik dinleme ve günlük kullanım için tasarlanmış konforlu bir kulaklık."
+  },
+  {
+    "name": "Akıllı Saat",
+    "price": 1299.90,
+    "stock": 8,
+    "image": "assets/images/saat.jpg",
+    "description": "Şık tasarımı ve pratik özellikleriyle günlük aktivitelerinizi takip etmenize yardımcı olan akıllı saat."
+  },
+  {
+    "name": "Bluetooth Hoparlör",
+    "price": 549.90,
+    "stock": 12,
+    "image": "assets/images/hoparlor.jpg",
+    "description": "Bluetooth bağlantısı sayesinde telefonunuzdan veya diğer uyumlu cihazlardan kablosuz müzik dinlemenizi sağlayan taşınabilir hoparlör."
+  },
+  {
+    "name": "Kablosuz Mouse",
+    "price": 349.90,
+    "stock": 25,
+    "image": "assets/images/mouse.jpg",
+    "description": "Ergonomik tasarımıyla günlük bilgisayar kullanımında rahatlık sağlayan, kablosuz bağlantıya sahip mouse."
+  }
+]
